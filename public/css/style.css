@@ -7,20 +7,20 @@
 }
 
 /* -----------------------header-menu----------------*/
-.header-menu{
-    padding:15px 0 !important;
+.app-bar{
+    padding:10px 0 !important;
     box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
 /*---------bottom-menu---------------*/
-.bottom-menu{
+.bottom-bar{
     position:absolute;
     bottom: 0;
     width: 100%;
 
     box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
-.bottom-menu a{
+.bottom-bar a{
     text-align: center;
     padding:15px;
     color:#000;
@@ -222,6 +222,9 @@
 
   .sidebar-wrapper .sidebar-search > div {
     padding: 10px 20px;
+  }
+  #show-sidebar{
+      font-size: 24px;
   }
 
   /*----------------------sidebar-menu-------------------------*/
