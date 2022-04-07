@@ -28,4 +28,6 @@ Route::middleware('auth')->group(function(){
   Route::get('/','PageController@home');
 
   Route::resource('employee','EmployeeController');
+  Route::get('/employee/datatable/ssd','EmployeeController@ssd');
+//   Route::get('/employee/datatable/ssd','EmployeeController@hello');
 });
